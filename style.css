@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+/* :root {
+    --bg-color: #292929;
+} */
+
 * {
     margin: 0;
     padding: 0;
@@ -47,6 +51,7 @@ body {
 
 .cabecalho__menu__img {
     width: 80%;
+    margin-left: 41px;
 }
 
 .buttomTema {
@@ -62,9 +67,14 @@ body {
     justify-content: space-evenly;
 }
 
+nav > div *{
+    border-bottom: 2px solid #BDBDBD;
+    
+}
+
 .cabecalho__navegacao__links{
-    width: 7%;
-    text-decoration: none;
+    /* width: 7%; */
+    /* text-decoration: none; */
 }
 
 .container {
@@ -140,6 +150,11 @@ body {
     width: 100%;
     border-radius: 8px;
 }
+
+
+
+
+
 /*
 .cabecalho {
     padding: 1% 10%;
