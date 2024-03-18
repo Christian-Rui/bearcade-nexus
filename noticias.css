@@ -1,0 +1,11 @@
+h1{
+    font-size: 4rem;
+}
+
+.container__artigos > img{
+    width: 100%;
+}
+
+.container__artigos > p {
+    font-size: 1.25rem;
+}

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Multiverso News</title>
+    <title>Bearcade Nexus</title>
 </head>
 
 <body>
@@ -16,88 +16,97 @@
                 <p>Menu</p>
             </div>
 
-            <a href="">
+            <a href="index.html">
                 <img class="cabecalho__menu__img" src="./img/logo2.png" alt="">
             </a>
             <button class="buttomTema" onclick="mudaTema()"><img src="./img/Dark Mode.png" alt=""></button>
         </div>
         <nav class="cabecalho__navegacao">
-            <div>
-                <a class="cabecalho__navegacao__links link__games" href="">
-                    Games
-                </a>
-            </div>
-            <div>
-                <a class="cabecalho__navegacao__links link__filmes" href="">
-                    Filmes
-                </a>
-            </div>
-            <div>
-                <a class="cabecalho__navegacao__links link__musicas" href="">
-                    Musicas
-                </a>
-            </div>       
-            
+            <a class="cabecalho__navegacao__links link__games" href="games.html">
+                <p>Games</p>
+            </a>
+            <a class="cabecalho__navegacao__links link__filmes" href="filmes.html">
+                <p>Filmes</p>
+            </a>
+            <a class="cabecalho__navegacao__links link__musicas" href="">
+                <p>Musicas</p>
+            </a>
+
         </nav>
     </header>
     <main class="container">
         <section class="container__conteudo">
-            <div class="container__UltimasNoticias">
-                <img class="container__UltimasNoticias__img" src="./img/aranhaverso.png" alt="">
-                <div class="container__UltimasNoticias__texto">
-                    <p>Ultimas noticias</p>
-                    <h2>Novo Filme do Homem Aranha no Aranhaverso 2</h2>
-                    <p>Mussum Ipsum, cacilds vidis litro abertis. In elementis mé pra quem é amistosis quis leo. Quem
-                        num gosta di mé, boa gentis num é.</p>
+            <a href="">
+                <div class="container__UltimasNoticias">
+                    <img class="container__UltimasNoticias__img" src="./img/aranhaverso.png" alt="">
+                    <div>
+                        <p class="container__UltimasNoticias__link">Ultimas noticias</p>
+                        <div class="container__UltimasNoticias__texto">
+                            <h2>Novo Filme do Homem Aranha no Aranhaverso 2</h2>
+                            <p>Mussum Ipsum, cacilds vidis litro abertis. In elementis mé pra quem é amistosis quis leo.
+                                Quem
+                                num gosta di mé, boa gentis num é.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
+            </a>
         </section>
         <section class="container__artigos">
             <article class="container__noticia">
-                <a  href="">
-                    <img class="noticia__imagem" src="./img/img_silksong.png" alt="Novo jogo do Hollow Knight">
-                </a>
-                <div class="container__noticia_texto">
-                    
-                    <a class="a__teste" href=""><span class="bordinha"></span>Games</a>
-                    <h2>
-                        <a class="container__noticia__titulo" href="">
+                <div class="container__img">
+                    <a href="Silksong.html">
+                        <img class="noticia__imagem" src="./img/silksong.png" alt="Novo jogo do Hollow Knight">
+                    </a>
+                </div>
+                <div class="container__noticia__texto">
+
+                    <a class="noticia__texto__borda link__games" href="games.html"><span class="bordinha"></span>Games</a>
+                    <p class="container__noticia__titulo">
+                        <a href="Silksong.html">
                             Novo jogo do Hollow Knight
                         </a>
-                    </h2>
-                    <p class="container__noticia__p">Mussum Ipsum, cacilds vidis litro abertis. In elementis mé pra quem é amistosis quis leo. Quem
-                        num gosta di mé, boa gentis num é.
+                    </p>
+                    <p class="container__noticia__info">Hollow Knight: Silksong, a tão aguardada sequência do aclamado
+                        jogo de ação e aventura.
                     </p>
                 </div>
             </article>
             <article class="container__noticia">
-                <a href="">
-                    <img class="noticia__imagem" src="./img/img_eldenRing.png" alt="Novo jogo Elden Ring tem um Heroi">
-                </a>
+                <div class="container__img">
+                    <a href="onepiece.html">
+                        <img class="noticia__imagem" src="./img/uta.png" alt="Personagem Uta do filme One Piece">
+                    </a>
+                </div>
                 <div class="container__noticia__texto">
-                    <h2>
-                        <a class="container__noticia__titulo" href="">
-                            Novo jogo Elden Ring tem um Heroi
+
+                    <a class="noticia__texto__borda link__filmes" href="filmes.html"><span class="bordinha"></span>Filmes</a>
+                    <p class="container__noticia__titulo">
+                        <a href="onepiece.html">
+                            One Piece: Red
                         </a>
-                    </h2>
-                    <p class="container__noticia__info">Mussum Ipsum, cacilds vidis litro abertis. In elementis mé pra quem é amistosis quis leo. Quem
-                        num gosta di mé, boa gentis num é.
+                    </p>
+                    <p class="container__noticia__info">Em One Piece Film: Red, todos conhecerão Uta, a cantora mais
+                        amada do planeta. Sua voz é descrita como “de outro mundo”, o que, convenhamos, é um elogio e
+                        tanto.
                     </p>
                 </div>
             </article>
             <article class="container__noticia">
-                <a href="">
-                    <img class="noticia__imagem" src="./img/img_cookieclicker.png"
-                        alt="Novo jogo Elden Ring tem um Heroi">
-                </a>
+                <div class="container__img">
+                    <a href="blingbang.html">
+                        <img class="noticia__imagem" src="./img/mushle.png" alt="Novo jogo do Hollow Knight">
+                    </a>
+                </div>
                 <div class="container__noticia__texto">
-                    <h2>
-                        <a class="container__noticia__titulo" href="">
-                            Cookie clicker
+                    <a class="noticia__texto__borda link__musicas" href=""><span class="bordinha"></span>Musicas</a>
+                    <p class="container__noticia__titulo">
+                        <a href="blingbang.html">
+                            A Musica desse anime contagia
                         </a>
-                    </h2>
-                    <p class="container__noticia__info">Mussum Ipsum, cacilds vidis litro abertis. In elementis mé pra quem é amistosis quis leo. Quem
-                        num gosta di mé, boa gentis num é.
+                    </p>
+                    <p class="container__noticia__info">Bling-bang-bang, bling-bang-bang-nasceu
+                        Bling-bang-bang, bling-bang-bang-born
+                        Bling-bang-bang, bling-bang-bang-born 
                     </p>
                 </div>
             </article>
@@ -107,106 +116,32 @@
         </aside>
     </main>
     <footer>
-        <div >
-            <a class="rodape__footer" href="">
-                <img src="./img/logo2.png" alt="">
+        <div>
+            <a href="">
+                <img class="rodape__logo" src="./img/logo2.png" alt="">
             </a>
         </div>
-        <p class="rodape__c">
-            ©️ 2024 - 2024 Christian Rui
-            <br>
-            Todas as imagens de games, filmes e etc são marcas registradas dos seus respectivos proprietários.
-        </p>
+        <div class="rodape__contato">
+            <a href="">
+                <img src="./img/instagramR.png" alt="">
+            </a>
+            <a href="">
+                <img src="./img/linkedinR.png" alt="">
+            </a>
+            <a href="">
+                <img src="./img/githubR.png" alt="">
+            </a>
+        </div>
+        <div class="rodape__sub">
+            <p class="rodape__c">
+                <span>©️ 2024 - 2024 Christian Rui</span>
+                <br>
+                Todas as imagens de games, filmes e etc são marcas registradas dos seus respectivos proprietários.
+            </p>
+        </div>
+
     </footer>
 
-
-    <!-- <header class="cabecalho">
-        <nav class="cabecalho__menu">
-            <a href="index.html">
-                <img src="./img/cuteBearLogo.png" alt="logo de um urso roxo usando um joystick">    
-            </a>
-            <div class="cabecalho__div__links">
-                <a class="cabecalho__links" href="">
-                    Games
-                </a>
-                <a class="cabecalho__links" href="">
-                    Filmes
-                </a>
-                <a class="cabecalho__links" href="">
-                    Musicas
-                </a>
-            </div>
-            <button class="buttomTema" onclick="mudaTema()"><img src="./img/Dark Mode.png" alt=""></button>
-        </nav>
-    </header>
-    <main class="container">
-        <h1 class="container__titulo">Multiverso News</h1>
-        <h1 class="container__subtitulo">Últimas notícias</h1>
-        
-        <div class="container__artigos">
-            <article class="container__noticia">
-                <a href="">
-                    <img class="noticia__imagem" src="./img/img_silksong.png" alt="Novo jogo do Hollow Knight">
-                </a>
-                <div class="container__noticia__div">
-                    <h3>Games</h3>
-                    <h2>
-                        <a class="container__noticia__titulo" href="">
-                            Novo jogo do Hollow Knight
-                        </a>
-                    </h2>
-                    <p class="container__noticia__info">Mussum Ipsum, cacilds vidis litro abertis. In elementis mé pra quem é amistosis quis leo. Quem
-                        num gosta di mé, boa gentis num é.
-                    </p>
-                </div>
-            </article>
-            <article class="container__noticia">
-                <a href="">
-                    <img class="noticia__imagem" src="./img/img_eldenRing.png" alt="Novo jogo Elden Ring tem um Heroi">
-                </a>
-                <div class="container__noticia__div">
-                    <h2>
-                        <a class="container__noticia__titulo" href="">
-                            Novo jogo Elden Ring tem um Heroi
-                        </a>
-                    </h2>
-                    <p class="container__noticia__info">Mussum Ipsum, cacilds vidis litro abertis. In elementis mé pra quem é amistosis quis leo. Quem
-                        num gosta di mé, boa gentis num é.
-                    </p>
-                </div>
-            </article>
-            <article class="container__noticia">
-                <a href="">
-                    <img class="noticia__imagem" src="./img/img_cookieclicker.png"
-                        alt="Novo jogo Elden Ring tem um Heroi">
-                </a>
-                <div class="container__noticia__div">
-                    <h2>
-                        <a class="container__noticia__titulo" href="">
-                            Cookie clicker
-                        </a>
-                    </h2>
-                    <p class="container__noticia__info">Mussum Ipsum, cacilds vidis litro abertis. In elementis mé pra quem é amistosis quis leo. Quem
-                        num gosta di mé, boa gentis num é.
-                    </p>
-                </div>
-            </article>
-        </div>
-    </main>
-    <footer>
-        <div >
-            <a class="rodape__footer" href="">
-                <img src="./img/cuteBearLogoMenor.png" alt="">
-                <p class="rodape__footer__titulo">Multiverso News</p>
-            </a>
-        </div>
-        <p class="rodape__c">
-            ©️ 2024 - 2024 Christian Rui
-            <br>
-            Todas as imagens de games, filmes e etc são marcas registradas dos seus respectivos proprietários.
-        </p>
-
-    </footer> -->
     <script src="app.js" defer></script>
 </body>
 
